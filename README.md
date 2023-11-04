@@ -1,4 +1,4 @@
-Data Visualization with Python with Python | Course | IBM
+Data Visualization with Python | Course | IBM
 
 # Data Visualization with Python - Final Project
 <br>
