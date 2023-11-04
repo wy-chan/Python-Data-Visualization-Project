@@ -154,10 +154,11 @@
 - [x] <b>Task 2.1 - Create a Dash application and give it a meaningful title. (2 points)</b>
   
   |![Title](Data%20Visualization%20-%20Screenshots/Title.png)|
-  |-|
 
+<pre>
 <code>html.H1("Automobile Sales Statistics Dashboard", style={'textAlign': 'center', 'color': '#503D36', 'font-size': '24px'})</code>
-  
+</pre> 
+
 </div>
 
 ---
@@ -170,6 +171,7 @@
   |![Drop-downs](Data%20Visualization%20-%20Screenshots/Dropdown.png)|
   |-|
 
+<pre>
 <code>
  html.Div([
         #TASK 2.2: Add two dropdown menus
@@ -188,7 +190,7 @@
             placeholder='Select Year',
         )),
 </code>
-  
+</pre>pre>  
 </div>
 
 ---
@@ -202,13 +204,14 @@
   |![Output Division](Data%20Visualization%20-%20Screenshots/Outputdiv.png)|
   |-|
 
+<pre>
 <code>
 html.Div([
         #TASK 2.3: Add a division for output display
          html.Div(id='output-container', className='chart-grid', style={'display':'flex'}),
         ]),
 </code>
-  
+</pre>
 </div>
 
 ---
@@ -220,6 +223,7 @@ html.Div([
   |![Callback Function](https://github.com/wy-chan/Python-Data-Visualization-Project/blob/main/Data%20Visualization%20-%20Screenshots/Callbacks.png)|
   |-|
 
+<pre>
 <code>
 #TASK 2.4: Creating Callbacks
 # Define the callback function to update the input container based on the selected statistics
@@ -246,7 +250,7 @@ def update_output_container(input_year, selected_statistics):
         recession_data = data[data['Recession'] == 1]
       
 </code>
-  
+</pre>pre> 
 </div>
 
 ---
@@ -258,6 +262,7 @@ def update_output_container(input_year, selected_statistics):
   |![Recession Report Statistics](Data%20Visualization%20-%20Screenshots/RecessionReportgraphs.png)|
   |-|
 
+<pre>
 <code>
 #TASK 2.5: Create and display graphs for Recession Report Statistics
 
@@ -300,7 +305,7 @@ def update_output_container(input_year, selected_statistics):
             html.Div(className='chart-item', children=[html.Div(children=R_chart3),html.Div(children=R_chart4)])
             ]
 </code>
-  
+</pre>
 </div>
 
 ---
@@ -312,6 +317,8 @@ def update_output_container(input_year, selected_statistics):
   |![Yearly Report Statistics](https://github.com/wy-chan/Python-Data-Visualization-Project/blob/main/Data%20Visualization%20-%20Screenshots/YearlyReportgraphs.png)|
   |-|
 
+
+<pre>
 <code>
 # TASK 2.6: Create and display graphs for Yearly Report Statistics
  # Yearly Statistic Report Plots                             
@@ -359,7 +366,7 @@ def update_output_container(input_year, selected_statistics):
     else:
         return None
 </code>
-  
+</pre>
 </div>
 
 
