@@ -28,16 +28,12 @@ Data Visualization with Python | Course | IBM
   
 <h3><u><a href="#task2">Task 2:</a> Create Dashboard with Plotly and Dash</u></h3>
 
-- [Task 2.1](#Q2_1)
-- [Task 2.2](#Q2_2)
-- [Task 2.3](#Q2_3)
-- [Task 2.4](#Q2_4)
-- [Task 2.5](#Q2_5)
-- [Task 2.6](#Q2_6)
-- [Task 2.7](#Q2_7)
-- [Task 2.8](#Q2_8)
-- [Task 2.9](#Q2_9)
-  
+- [Task 2.1](#Q2_1) - Title
+- [Task 2.2](#Q2_2) - Drop-downs
+- [Task 2.3](#Q2_3) - Output Division
+- [Task 2.4](#Q2_4) - Callback Function
+- [Task 2.5](#Q2_5) - Recession Report Statistics
+- [Task 2.6](#Q2_6) - Yearly Report Statistics
 
 <br>
 
@@ -157,7 +153,7 @@ Data Visualization with Python | Course | IBM
   
 - [x] <b>Task 2.1 - Create a Dash application and give it a meaningful title. (2 points)</b>
   
-  |![]()|
+  |![Title](Data%20Visualization%20-%20Screenshots/Title.png)|
   |-|
   
 </div>
@@ -168,7 +164,7 @@ Data Visualization with Python | Course | IBM
   
 - [x] <b>Task 2.2 - Add drop-downs to your dashboard with appropriate titles and options. (1 point)</b>
   
-  |![]()|
+  |![Drop-downs](Data%20Visualization%20-%20Screenshots/Dropdown.png)|
   |-|
   
 </div>
@@ -179,7 +175,7 @@ Data Visualization with Python | Course | IBM
   
 - [x] <b>Task 2.3 - Add a division for output display with appropriate 'id' and 'classname' property. (1 point)</b>
   
-  |![]()|
+  |![Output Division](Data%20Visualization%20-%20Screenshots/Outputdiv.png)|
   |-|
   
 </div>
@@ -190,7 +186,7 @@ Data Visualization with Python | Course | IBM
   
 - [x] <b>Task 2.4 - Creating Callbacks; Define the callback function to update the input container. (5 points)</b>
   
-  |![]()|
+  |![Callback Function](https://github.com/wy-chan/Python-Data-Visualization-Project/blob/main/Data%20Visualization%20-%20Screenshots/Callbacks.png)|
   |-|
   
 </div>
@@ -201,7 +197,7 @@ Data Visualization with Python | Course | IBM
   
 - [x] <b>Task 2.5 - Create and display graphs for Recession Report Statistics. (3 points)</b>
   
-  |![]()|
+  |![Recession Report Statistics](Data%20Visualization%20-%20Screenshots/RecessionReportgraphs.png)|
   |-|
   
 </div>
@@ -212,7 +208,7 @@ Data Visualization with Python | Course | IBM
   
 - [x] <b>Task 2.6 - Create and display graphs for Yearly Report Statistics. (2 points)</b>
   
-  |![]()|
+  |![Yearly Report Statistics](https://github.com/wy-chan/Python-Data-Visualization-Project/blob/main/Data%20Visualization%20-%20Screenshots/YearlyReportgraphs.png)|
   |-|
   
 </div>
