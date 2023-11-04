@@ -43,7 +43,7 @@ Data Visualization with Python | Course | IBM
 ---
 
 <div id="task1">
-<h3>Task 1: Create visualizations using Matplotib, Seaborn and Folium</h3>
+<h2>Task 1: Create visualizations using Matplotib, Seaborn and Folium</h2>
 <div id="Q1_1">
   
 - [x] <b>Task 1.1 - Develop a Line chart using the functionality of pandas to show how automobile sales fluctuate from year to year (1 point)</b>
@@ -147,12 +147,10 @@ Data Visualization with Python | Course | IBM
 ---
 
 <div id="task2">
-<h3>Task 2: Create Dashboard with Plotly and Dash</h3>
+<h2>Task 2: Create Dashboard with Plotly and Dash</h2>
   
 </div>
 
-
----
 
 <div id="Q2_1">
   
