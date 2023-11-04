@@ -156,9 +156,7 @@
   |![Title](Data%20Visualization%20-%20Screenshots/Title.png)|
   |-|
 
-<code>
-html.H1("Automobile Sales Statistics Dashboard", style={'textAlign': 'center', 'color': '#503D36', 'font-size': '24px'})
-</code>
+<code>html.H1("Automobile Sales Statistics Dashboard", style={'textAlign': 'center', 'color': '#503D36', 'font-size': '24px'})</code>
   
 </div>
 
@@ -271,7 +269,6 @@ def update_output_container(input_year, selected_statistics):
                 x='Year',
                 y='Automobile_Sales',
                 title="Average Automobile Sales Fluctuation Over Recession Period"))
-
 #Plot 2 Calculate the average number of vehicles sold by vehicle type       
         # use groupby to create relevant data for plotting
         average_sales = recession_data.groupby('Vehicle_Type')['Automobile_Sales'].mean().reset_index()                           
@@ -279,9 +276,7 @@ def update_output_container(input_year, selected_statistics):
             figure=px.bar(average_sales, 
             x='Vehicle_Type',
             y='Automobile_Sales',
-            title="Average Number Of Vehicles Sold By Vehicle Type"))
-
-        
+            title="Average Number Of Vehicles Sold By Vehicle Type"))    
 # Plot 3 Pie chart for total expenditure share by vehicle type during recessions
         # use groupby to create relevant data for plotting
         exp_rec= recession_data.groupby('Vehicle_Type')['Advertising_Expenditure'].sum().reset_index()
@@ -292,7 +287,6 @@ def update_output_container(input_year, selected_statistics):
                  title="Total Expenditure Share By Vehicle Type During Recessions"
                 )
         )
-
 # Plot 4 bar chart for the effect of unemployment rate on vehicle type and sales
         average_sales = recession_data.groupby(['unemployment_rate','Vehicle_Type'])['Automobile_Sales'].mean().reset_index()                           
         R_chart4  = dcc.Graph(
@@ -301,8 +295,6 @@ def update_output_container(input_year, selected_statistics):
                 y='Automobile_Sales',
                 color = 'Vehicle_Type',
                 title="The Effect Of Unemployment Rate On Vehicle Type And Sales Over Recession Period"))
-
-
         return [
             html.Div(className='chart-item', children=[html.Div(children=R_chart1),html.Div(children=R_chart2)]),
             html.Div(className='chart-item', children=[html.Div(children=R_chart3),html.Div(children=R_chart4)])
@@ -333,7 +325,7 @@ def update_output_container(input_year, selected_statistics):
                 x='Year',
                 y='Automobile_Sales',
                 title="Average Automobile Sales Fluctuation Over Time"))
-            
+          
 # Plot 2 Total Monthly Automobile sales using line chart.
         mas= yearly_data.groupby('Month')['Automobile_Sales'].sum().reset_index()
         Y_chart2 = dcc.Graph(
