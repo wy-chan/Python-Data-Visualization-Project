@@ -33,7 +33,7 @@ year_list = [i for i in range(1980, 2024, 1)]
 # Create the layout of the app
 app.layout = html.Div([
     #TASK 2.1 Add title to the dashboard
-    html.H1("Automobile Sales Statistics Dashboard", style={'textAlign': 'center', 'color': '#503D36', 'font-size': '24px'}),#May include style for title
+    html.H1("Automobile Sales Statistics Dashboard", style={'textAlign': 'center', 'color': '#503D36', 'font-size': '24px'}), #May include style for title
     html.Div([
         #TASK 2.2: Add two dropdown menus
         html.Label("Select Statistics:"),
@@ -73,8 +73,8 @@ def update_input_container(selected_statistics):
     Output(component_id='output-container', component_property='children'),
     [Input(component_id='select-year', component_property='value'), Input(component_id='dropdown-statistics', component_property='value')])
 
-#Personal note: Only works in this sequence: input_year, selected_statistics
-def update_output_container(input_year, selected_statistics): 
+#sequence here matters?: input_year, selected_statistics
+def update_output_container(input_year, selected_statistics):
     if selected_statistics == 'Recession Period Statistics':
         # Filter the data for recession periods
         recession_data = data[data['Recession'] == 1]
@@ -122,8 +122,8 @@ def update_output_container(input_year, selected_statistics):
 
 
         return [
-            html.Div(className='chart-item', children=[html.Div(children=R_chart1),html.Div(children=R_chart2)],style={'display':'flex'}),
-            html.Div(className='chart-item', children=[html.Div(children=R_chart3),html.Div(children=R_chart4)],style={'display':'flex'})
+            html.Div(className='chart-item', children=[html.Div(children=R_chart1),html.Div(children=R_chart2)]),
+            html.Div(className='chart-item', children=[html.Div(children=R_chart3),html.Div(children=R_chart4)])
             ]
 
 # TASK 2.6: Create and display graphs for Yearly Report Statistics
@@ -143,12 +143,12 @@ def update_output_container(input_year, selected_statistics):
                 title="Average Automobile Sales Fluctuation Over Time"))
             
 # Plot 2 Total Monthly Automobile sales using line chart.
-        mas= data.groupby('Month')['Automobile_Sales'].sum().reset_index()
+        mas= yearly_data.groupby('Month')['Automobile_Sales'].sum().reset_index()
         Y_chart2 = dcc.Graph(
                 figure=px.line(mas,
                 x='Month',
                 y='Automobile_Sales',
-                title="Total Monthly Automobile Sales"))
+                title="Total Monthly Automobile Sales in the year {}" .format(input_year)))
 
 # Plot bar chart for average number of vehicles sold during the given year
         avr_vdata=yearly_data.groupby('Vehicle_Type')['Automobile_Sales'].mean().reset_index()
@@ -168,8 +168,8 @@ def update_output_container(input_year, selected_statistics):
 
 #TASK 2.6: Returning the graphs for displaying Yearly data
         return [
-                html.Div(className='chart-item', children=[html.Div(children=Y_chart1),html.Div(children=Y_chart2)],style={'display':'flex'}),
-                html.Div(className='chart-item', children=[html.Div(children=Y_chart3),html.Div(children=Y_chart4)],style={'display':'flex'})
+                html.Div(className='chart-item', children=[html.Div(children=Y_chart1),html.Div(children=Y_chart2)]),
+                html.Div(className='chart-item', children=[html.Div(children=Y_chart3),html.Div(children=Y_chart4)])
                 ]
         
     else:
