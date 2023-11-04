@@ -218,3 +218,5 @@ Data Visualization with Python | Course | IBM
 
 ---
 
+<p style='text-align: center'> - End - </p>
+
