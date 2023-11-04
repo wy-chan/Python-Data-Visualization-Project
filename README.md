@@ -218,5 +218,5 @@ Data Visualization with Python | Course | IBM
 
 ---
 
-<p style='text-align: center'> - End - </p>
+<p align="center"> - <a href='#Data'>Back to Top</a> - </p>
 
