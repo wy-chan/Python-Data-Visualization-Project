@@ -11,7 +11,7 @@ Data Visualization with Python with Python | Course | IBM
 <!-- TABLE OF CONTENTS -->
 ### Table of Contents:
 
-<a href="task1"><b>Task 1: Create visualizations using Matplotib, Seaborn and Folium</b></a>
+<b>Task 1: <a href="#task1">Create visualizations using Matplotib, Seaborn and Folium</b></a></b>
 
 - [Task 1.1](#Q1_1)
 - [Task 1.2](#Q1_2)
@@ -23,7 +23,7 @@ Data Visualization with Python with Python | Course | IBM
 - [Task 1.8](#Q1_8)
 - [Task 1.9](#Q1_9)
   
-<a href="task2"><b>Task 2: Create Dashboard with Plotly and Dash</b></a>
+<b>Task 2: <a href="#task2">Create Dashboard with Plotly and Dash</a></b>
 
 - [Task 2.1](#Q2_1)
 - [Task 2.2](#Q2_2)
@@ -50,6 +50,11 @@ Data Visualization with Python with Python | Course | IBM
   |-|
   
 </div>
+
+
+---
+
+
 </div>
 
 ---
@@ -58,6 +63,11 @@ Data Visualization with Python with Python | Course | IBM
 <b>Task 2: Create Dashboard with Plotly and Dash</b>
   
 </div>
+
+
+---
+
+
 </div>
 
 ---
