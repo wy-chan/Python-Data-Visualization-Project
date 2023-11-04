@@ -3,15 +3,16 @@ Data Visualization with Python with Python | Course | IBM
 # Data Visualization with Python - Final Project
 <br>
 
-|TASK 1 &rarr; [Completed Notebook](https://github.com/wy-chan/Python-Data-Visualization-Project/blob/main/Final%20Assignment%20Part%201.jupyterlite.ipynb)|
-| - |
-
 ---
 
 <!-- TABLE OF CONTENTS -->
 ### Table of Contents:
 
 <b>Task 1: <a href="#task1">Create visualizations using Matplotib, Seaborn and Folium</b></a></b>
+
+|&rarr; [Completed Notebook](https://github.com/wy-chan/Python-Data-Visualization-Project/blob/main/Final%20Assignment%20Part%201.jupyterlite.ipynb)|
+| - |
+
 
 - [Task 1.1](#Q1_1)
 - [Task 1.2](#Q1_2)
