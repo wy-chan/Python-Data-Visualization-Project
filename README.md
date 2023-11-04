@@ -218,5 +218,5 @@
 
 ---
 
-<p align="center"> - <a href='#top'>Back to Top</a> - </p>
+<p align="center"> - <a href='#top'>Back to Top</a> | <a href='#task1'>Task 1</a> | <a href='#task2'>Task 2</a> - </p>
 
