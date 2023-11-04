@@ -154,7 +154,7 @@
 - [x] <b>Task 2.1 - Create a Dash application and give it a meaningful title. (2 points)</b>
   
   |![Title](Data%20Visualization%20-%20Screenshots/Title.png)|
-|-|
+  |-|
 
 <pre>
 <code>html.H1("Automobile Sales Statistics Dashboard", style={'textAlign': 'center', 'color': '#503D36', 'font-size': '24px'})</code>
