@@ -3,7 +3,7 @@ Data Visualization with Python with Python | Course | IBM
 # Data Visualization with Python - Final Project
 <br>
 
-|&rarr; [Completed Notebook](https://github.com/wy-chan/Python-Data-Visualization-Project/blob/main/Final%20Assignment%20Part%201.jupyterlite.ipynb)|
+|Task 1 &rarr; [Completed Notebook](https://github.com/wy-chan/Python-Data-Visualization-Project/blob/main/Final%20Assignment%20Part%201.jupyterlite.ipynb)|
 | - |
 
 ---
