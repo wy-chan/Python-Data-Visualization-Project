@@ -142,8 +142,6 @@ Data Visualization with Python | Course | IBM
   
 </div>
 
----
-
 </div>
 
 ---
@@ -220,7 +218,6 @@ Data Visualization with Python | Course | IBM
   
 </div>
 
----
 
 </div>
 
