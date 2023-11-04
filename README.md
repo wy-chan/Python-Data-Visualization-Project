@@ -4,8 +4,6 @@ Data Visualization with Python | Course | IBM
 <br>
 
 |Task 1 &rarr; [Completed Notebook](https://github.com/wy-chan/Python-Data-Visualization-Project/blob/main/Final%20Assignment%20Part%201.jupyterlite.ipynb)|
-| - |
-
 |Task 2 &rarr; [Completed Codes](https://github.com/wy-chan/Python-Data-Visualization-Project/blob/main/DV0101EN-Final_Assign_Part_2_Questions_Completed.py)|
 | - |
 
